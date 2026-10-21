@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300">
+  <defs>
+    <linearGradient id="gF" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffeaa8"/><stop offset=".5" stop-color="#f2c14e"/><stop offset="1" stop-color="#b07a0a"/></linearGradient>
+    <linearGradient id="gS" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b07a0a"/><stop offset="1" stop-color="#7a5306"/></linearGradient>
+    <linearGradient id="nF" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4cb0"/><stop offset=".55" stop-color="#1a2a78"/><stop offset="1" stop-color="#0a1243"/></linearGradient>
+    <linearGradient id="nS" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a1243"/><stop offset="1" stop-color="#04082a"/></linearGradient>
+    <linearGradient id="arrow" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#86efb4"/></linearGradient>
+    <radialGradient id="coin" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#fff4c9"/><stop offset=".45" stop-color="#f5c542"/><stop offset="1" stop-color="#a8740a"/></radialGradient>
+    <radialGradient id="sh" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#000" stop-opacity=".45"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="180" cy="282" rx="170" ry="16" fill="url(#sh)"/>
+  <!-- base plate -->
+  <path d="M20 262 L300 262 L340 244 L60 244 Z" fill="#e9edf8"/>
+  <path d="M20 262 L300 262 L300 272 L20 272 Z" fill="#c3c9de"/>
+  <path d="M300 262 L340 244 L340 254 L300 272 Z" fill="#a9b0c8"/>
+  <!-- bars: front, side, top -->
+  <g>
+    <rect x="44" y="200" width="36" height="56" fill="url(#nF)"/><path d="M80 200 l16 -8 v56 l-16 8 z" fill="url(#nS)"/><path d="M44 200 l16 -8 h36 l-16 8 z" fill="#5a6cd0"/>
+    <rect x="98" y="168" width="36" height="88" fill="url(#gF)"/><path d="M134 168 l16 -8 v88 l-16 8 z" fill="url(#gS)"/><path d="M98 168 l16 -8 h36 l-16 8 z" fill="#ffe7a0"/>
+    <rect x="152" y="132" width="36" height="124" fill="url(#nF)"/><path d="M188 132 l16 -8 v124 l-16 8 z" fill="url(#nS)"/><path d="M152 132 l16 -8 h36 l-16 8 z" fill="#5a6cd0"/>
+    <rect x="206" y="94" width="36" height="162" fill="url(#gF)"/><path d="M242 94 l16 -8 v162 l-16 8 z" fill="url(#gS)"/><path d="M206 94 l16 -8 h36 l-16 8 z" fill="#ffe7a0"/>
+    <rect x="260" y="56" width="36" height="200" fill="url(#nF)"/><path d="M296 56 l16 -8 v200 l-16 8 z" fill="url(#nS)"/><path d="M260 56 l16 -8 h36 l-16 8 z" fill="#5a6cd0"/>
+  </g>
+  <!-- highlights -->
+  <rect x="48" y="204" width="6" height="48" rx="3" fill="#fff" opacity=".18"/>
+  <rect x="102" y="172" width="6" height="80" rx="3" fill="#fff" opacity=".35"/>
+  <rect x="156" y="136" width="6" height="116" rx="3" fill="#fff" opacity=".18"/>
+  <rect x="210" y="98" width="6" height="154" rx="3" fill="#fff" opacity=".35"/>
+  <rect x="264" y="60" width="6" height="192" rx="3" fill="#fff" opacity=".18"/>
+  <!-- rising arrow -->
+  <path d="M30 178 L92 140 L140 152 L214 82 L262 70 L316 26" fill="none" stroke="#0a3d1f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity=".25" transform="translate(4 6)"/>
+  <path d="M30 178 L92 140 L140 152 L214 82 L262 70 L316 26" fill="none" stroke="url(#arrow)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M296 22 L338 8 L328 50 Z" fill="#86efb4"/>
+  <!-- coins -->
+  <g transform="translate(52 120)"><ellipse cx="0" cy="5" rx="20" ry="18" fill="#9a6806"/><circle r="20" fill="url(#coin)"/><circle r="14" fill="none" stroke="#fff6d6" stroke-width="2" opacity=".7"/><text y="7" text-anchor="middle" font-family="Arial" font-weight="900" font-size="20" fill="#a06d05">$</text></g>
+  <g transform="translate(330 120)"><ellipse cx="0" cy="4" rx="15" ry="13" fill="#9a6806"/><circle r="15" fill="url(#coin)"/><circle r="10" fill="none" stroke="#fff6d6" stroke-width="1.6" opacity=".7"/><text y="5" text-anchor="middle" font-family="Arial" font-weight="900" font-size="15" fill="#a06d05">$</text></g>
+</svg>
