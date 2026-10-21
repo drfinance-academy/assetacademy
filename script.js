@@ -45,3 +45,9 @@ if (list) {
 // ---------- WhatsApp floating button ----------
 const waFloat = document.getElementById("wa-float");
 if (waFloat && waNumber) { waFloat.href = waLink("السلام عليكم، أرغب في الاستفسار عن المحاضرات"); waFloat.hidden = false; }
+
+const waCta = document.getElementById("wa-cta-btn");
+if (waCta) {
+  if (waNumber) waCta.href = waLink("السلام عليكم، أرغب في الاستفسار عن المحاضرات");
+  else document.getElementById("contact").hidden = true;
+}
