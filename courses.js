@@ -5,7 +5,6 @@
 //    والصقيه، وغيّري الكلام اللي بين علامتي " ".
 //  • عشان تشيلي مادة: امسحي البلوك بتاعها كله.
 //  • ar: اسم المادة بالعربي
-//  • price: السعر اللي بيظهر جنب زرار التسجيل
 //  • form: لينك فورم Tally بتاع المادة
 //  • icon: اسم صورة الـ 3D (finance, managerial, portfolio, institutions,
 //    risk, contemporary, banking, analysis, valuation, international,
@@ -24,7 +23,6 @@ const COURSES = [
     name: "Principles of Finance & Investment",
     ar: "مبادئ التمويل والاستثمار",
     desc: "أساسيات التمويل والاستثمار: القيمة الزمنية للنقود، العائد والمخاطرة، وأدوات الاستثمار.",
-    price: "$9.99",
     form: "https://tally.so/r/Z9jJ70",
     icon: "finance"
   },
@@ -32,7 +30,6 @@ const COURSES = [
     name: "Managerial Finance",
     ar: "التمويل الإداري",
     desc: "اتخاذ القرارات المالية في الشركات: الميزانيات الرأسمالية، هيكل التمويل، وإدارة رأس المال العامل.",
-    price: "$9.99",
     form: "https://tally.so/r/gbD4BN",
     icon: "managerial"
   },
@@ -40,7 +37,6 @@ const COURSES = [
     name: "Portfolio Management",
     ar: "إدارة المحافظ الاستثمارية",
     desc: "بناء وإدارة المحافظ الاستثمارية، التنويع، وقياس أداء المحفظة.",
-    price: "$9.99",
     form: "https://tally.so/r/Z9jJqa",
     icon: "portfolio"
   },
@@ -48,7 +44,6 @@ const COURSES = [
     name: "Financial Institutions",
     ar: "المؤسسات المالية",
     desc: "البنوك وشركات التأمين وصناديق الاستثمار: دورها وطريقة عملها في النظام المالي.",
-    price: "$9.99",
     form: "https://tally.so/r/q54P0d",
     icon: "institutions"
   },
@@ -56,7 +51,6 @@ const COURSES = [
     name: "Financial Risk",
     ar: "المخاطر المالية",
     desc: "أنواع المخاطر المالية وطرق قياسها وإدارتها والتحوّط منها.",
-    price: "$9.99",
     form: "https://tally.so/r/Z9jJ4v",
     icon: "risk"
   },
@@ -64,7 +58,6 @@ const COURSES = [
     name: "Contemporary Issues in Finance",
     ar: "قضايا معاصرة في التمويل",
     desc: "أحدث القضايا والاتجاهات في عالم المال: التكنولوجيا المالية، الاستدامة، والأزمات.",
-    price: "$9.99",
     form: "https://tally.so/r/2jErqb",
     icon: "contemporary"
   },
@@ -72,7 +65,6 @@ const COURSES = [
     name: "Banking Management",
     ar: "إدارة البنوك",
     desc: "إدارة البنوك: الأصول والخصوم، السيولة، الائتمان، والرقابة المصرفية.",
-    price: "$9.99",
     form: "https://tally.so/r/yXPDWW",
     icon: "banking"
   },
@@ -80,7 +72,6 @@ const COURSES = [
     name: "Financial Analysis",
     ar: "التحليل المالي",
     desc: "قراءة وتحليل القوائم المالية والنسب المالية وتقييم أداء الشركات.",
-    price: "$9.99",
     form: "https://tally.so/r/gbD4RK",
     icon: "analysis"
   },
@@ -88,7 +79,6 @@ const COURSES = [
     name: "Cash Valuation",
     ar: "التقييم النقدي",
     desc: "تقييم التدفقات النقدية وطرق التقييم المختلفة واتخاذ القرار على أساسها.",
-    price: "$9.99",
     form: "https://tally.so/r/9Nqlb1",
     icon: "valuation"
   },
@@ -96,7 +86,6 @@ const COURSES = [
     name: "International Finance",
     ar: "التمويل الدولي",
     desc: "أسعار الصرف، الأسواق المالية الدولية، وإدارة المخاطر في الشركات متعددة الجنسيات.",
-    price: "$9.99",
     form: "https://tally.so/r/J190N7",
     icon: "international"
   },
@@ -104,7 +93,6 @@ const COURSES = [
     name: "Graduation Projects",
     ar: "مشروعات التخرج",
     desc: "إشراف ومتابعة لمشروع التخرج من اختيار الفكرة حتى المناقشة.",
-    price: "$15",
     form: "https://tally.so/r/M1e590",
     icon: "graduation"
   },
@@ -112,7 +100,6 @@ const COURSES = [
     name: "Operations & Production Management",
     ar: "إدارة العمليات والإنتاج",
     desc: "تخطيط وإدارة العمليات والإنتاج، الجودة، والمخزون وسلاسل الإمداد.",
-    price: "$9.99",
     form: "https://tally.so/r/1WAE1L",
     icon: "operations"
   },
@@ -120,7 +107,6 @@ const COURSES = [
     name: "Investment Analysis",
     ar: "تحليل الاستثمار",
     desc: "تحليل الأسهم والسندات، التحليل الأساسي، وتقييم الفرص الاستثمارية.",
-    price: "$9.99",
     form: "https://tally.so/r/pebVlE",
     icon: "investment"
   },
@@ -128,7 +114,6 @@ const COURSES = [
     name: "Business Administration",
     ar: "إدارة الأعمال",
     desc: "أساسيات الإدارة والتخطيط والتنظيم واتخاذ القرار في منظمات الأعمال.",
-    price: "$9.99",
     form: "https://tally.so/r/kbdZVj",
     icon: "business"
   }

@@ -34,10 +34,8 @@ if (list) {
       <div class="ico">${(typeof ICONS !== "undefined" && ICONS[c.icon]) || ""}</div>
       <div class="info">
         <h3><span dir="ltr">${esc(c.name)}</span><span class="ar">${esc(c.ar || "")}</span></h3>
-        <p class="note">للتسجيل، يُرجى إرسال اسم المادة مع رفع نبذة عنها وتحديد الجزء الذي تجد صعوبة في فهمه، وسيقوم فريقنا بالتواصل معك.</p>
       </div>
       <div class="act">
-        ${c.price ? `<span class="price" dir="ltr">${esc(c.price)}</span>` : ""}
         ${btn}
       </div>
     </article>`;

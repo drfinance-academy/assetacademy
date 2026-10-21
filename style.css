@@ -298,3 +298,12 @@ a { color: inherit; text-decoration: none; }
   .brand-text { white-space: nowrap; }
   .page-hero + .section { padding-top: 36px; }
 }
+
+/* five-step flow */
+.steps.five { grid-template-columns: repeat(5, 1fr); gap: 16px; position: relative; }
+.steps.five .step { position: relative; }
+.steps.five .step p { font-size: .92rem; }
+.steps.five .step:not(:last-child)::after { content: "←"; position: absolute; left: -14px; top: 38px; color: var(--gold-2); font-weight: 900; font-size: 1.2rem; }
+@media (max-width: 980px) { .steps.five { grid-template-columns: repeat(2, 1fr); } .steps.five .step::after { display: none; } }
+@media (max-width: 640px) { .steps.five { grid-template-columns: 1fr; } }
+.how .section-head { max-width: 860px; }
